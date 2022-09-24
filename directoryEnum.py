@@ -1,7 +1,7 @@
 import requests 
 import sys 
 
-#Wordlist.txt in current directory. COuld also be chaged to argument
+#Wordlist.txt in current directory. Could also be chaged to take argument
 sub_list = open("wordlist.txt").read() 
 directories = sub_list.splitlines()
 
